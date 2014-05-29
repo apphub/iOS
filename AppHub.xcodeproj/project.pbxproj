@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280E4B6119377E0600F12621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280E4B6019377E0600F12621 /* Foundation.framework */; };
+		280E4B6619377E0600F12621 /* AppHub.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 280E4B6519377E0600F12621 /* AppHub.h */; };
+		280E4B6819377E0600F12621 /* AppHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E4B6719377E0600F12621 /* AppHub.m */; };
+		280E4B6F19377E0600F12621 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280E4B6E19377E0600F12621 /* XCTest.framework */; };
+		280E4B7019377E0600F12621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280E4B6019377E0600F12621 /* Foundation.framework */; };
+		280E4B7219377E0600F12621 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280E4B7119377E0600F12621 /* UIKit.framework */; };
+		280E4B7519377E0600F12621 /* libAppHub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 280E4B5D19377E0600F12621 /* libAppHub.a */; };
+		280E4B7B19377E0600F12621 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 280E4B7919377E0600F12621 /* InfoPlist.strings */; };
+		280E4B7D19377E0600F12621 /* AppHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E4B7C19377E0600F12621 /* AppHubTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		280E4B7319377E0600F12621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280E4B5519377E0500F12621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280E4B5C19377E0600F12621;
+			remoteInfo = AppHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		280E4B5B19377E0600F12621 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				280E4B6619377E0600F12621 /* AppHub.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		280E4B5D19377E0600F12621 /* libAppHub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppHub.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		280E4B6019377E0600F12621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		280E4B6419377E0600F12621 /* AppHub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppHub-Prefix.pch"; sourceTree = "<group>"; };
+		280E4B6519377E0600F12621 /* AppHub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppHub.h; sourceTree = "<group>"; };
+		280E4B6719377E0600F12621 /* AppHub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppHub.m; sourceTree = "<group>"; };
+		280E4B6D19377E0600F12621 /* AppHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280E4B6E19377E0600F12621 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		280E4B7119377E0600F12621 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		280E4B7819377E0600F12621 /* AppHubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppHubTests-Info.plist"; sourceTree = "<group>"; };
+		280E4B7A19377E0600F12621 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		280E4B7C19377E0600F12621 /* AppHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppHubTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280E4B5A19377E0600F12621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E4B6119377E0600F12621 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280E4B6A19377E0600F12621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E4B6F19377E0600F12621 /* XCTest.framework in Frameworks */,
+				280E4B7519377E0600F12621 /* libAppHub.a in Frameworks */,
+				280E4B7219377E0600F12621 /* UIKit.framework in Frameworks */,
+				280E4B7019377E0600F12621 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280E4B5419377E0500F12621 = {
+			isa = PBXGroup;
+			children = (
+				280E4B6219377E0600F12621 /* AppHub */,
+				280E4B7619377E0600F12621 /* AppHubTests */,
+				280E4B5F19377E0600F12621 /* Frameworks */,
+				280E4B5E19377E0600F12621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280E4B5E19377E0600F12621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280E4B5D19377E0600F12621 /* libAppHub.a */,
+				280E4B6D19377E0600F12621 /* AppHubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280E4B5F19377E0600F12621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				280E4B6019377E0600F12621 /* Foundation.framework */,
+				280E4B6E19377E0600F12621 /* XCTest.framework */,
+				280E4B7119377E0600F12621 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		280E4B6219377E0600F12621 /* AppHub */ = {
+			isa = PBXGroup;
+			children = (
+				280E4B6519377E0600F12621 /* AppHub.h */,
+				280E4B6719377E0600F12621 /* AppHub.m */,
+				280E4B6319377E0600F12621 /* Supporting Files */,
+			);
+			path = AppHub;
+			sourceTree = "<group>";
+		};
+		280E4B6319377E0600F12621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				280E4B6419377E0600F12621 /* AppHub-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		280E4B7619377E0600F12621 /* AppHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				280E4B7C19377E0600F12621 /* AppHubTests.m */,
+				280E4B7719377E0600F12621 /* Supporting Files */,
+			);
+			path = AppHubTests;
+			sourceTree = "<group>";
+		};
+		280E4B7719377E0600F12621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				280E4B7819377E0600F12621 /* AppHubTests-Info.plist */,
+				280E4B7919377E0600F12621 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280E4B5C19377E0600F12621 /* AppHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280E4B8019377E0600F12621 /* Build configuration list for PBXNativeTarget "AppHub" */;
+			buildPhases = (
+				280E4B5919377E0600F12621 /* Sources */,
+				280E4B5A19377E0600F12621 /* Frameworks */,
+				280E4B5B19377E0600F12621 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppHub;
+			productName = AppHub;
+			productReference = 280E4B5D19377E0600F12621 /* libAppHub.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		280E4B6C19377E0600F12621 /* AppHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280E4B8319377E0600F12621 /* Build configuration list for PBXNativeTarget "AppHubTests" */;
+			buildPhases = (
+				280E4B6919377E0600F12621 /* Sources */,
+				280E4B6A19377E0600F12621 /* Frameworks */,
+				280E4B6B19377E0600F12621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280E4B7419377E0600F12621 /* PBXTargetDependency */,
+			);
+			name = AppHubTests;
+			productName = AppHubTests;
+			productReference = 280E4B6D19377E0600F12621 /* AppHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280E4B5519377E0500F12621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Laughlin Constable";
+			};
+			buildConfigurationList = 280E4B5819377E0500F12621 /* Build configuration list for PBXProject "AppHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 280E4B5419377E0500F12621;
+			productRefGroup = 280E4B5E19377E0600F12621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280E4B5C19377E0600F12621 /* AppHub */,
+				280E4B6C19377E0600F12621 /* AppHubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280E4B6B19377E0600F12621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E4B7B19377E0600F12621 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280E4B5919377E0600F12621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E4B6819377E0600F12621 /* AppHub.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280E4B6919377E0600F12621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E4B7D19377E0600F12621 /* AppHubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		280E4B7419377E0600F12621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280E4B5C19377E0600F12621 /* AppHub */;
+			targetProxy = 280E4B7319377E0600F12621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		280E4B7919377E0600F12621 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280E4B7A19377E0600F12621 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280E4B7E19377E0600F12621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		280E4B7F19377E0600F12621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280E4B8119377E0600F12621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AppHub.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppHub/AppHub-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		280E4B8219377E0600F12621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AppHub.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppHub/AppHub-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		280E4B8419377E0600F12621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppHub/AppHub-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AppHubTests/AppHubTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		280E4B8519377E0600F12621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppHub/AppHub-Prefix.pch";
+				INFOPLIST_FILE = "AppHubTests/AppHubTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280E4B5819377E0500F12621 /* Build configuration list for PBXProject "AppHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280E4B7E19377E0600F12621 /* Debug */,
+				280E4B7F19377E0600F12621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280E4B8019377E0600F12621 /* Build configuration list for PBXNativeTarget "AppHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280E4B8119377E0600F12621 /* Debug */,
+				280E4B8219377E0600F12621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		280E4B8319377E0600F12621 /* Build configuration list for PBXNativeTarget "AppHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280E4B8419377E0600F12621 /* Debug */,
+				280E4B8519377E0600F12621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 280E4B5519377E0500F12621 /* Project object */;
+}
