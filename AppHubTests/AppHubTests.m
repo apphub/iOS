@@ -7,7 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import "AppHub.h"
+#import "HttpConnection.h"
 @interface AppHubTests : XCTestCase
 
 @end
@@ -28,7 +29,10 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    
+    NSString *result = [HttpConnection sendPost:@"http://localhost:8080/apphub/error"];
+    NSLog(@"%@", result);
+
 }
 
 @end

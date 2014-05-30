@@ -1,5 +1,5 @@
 //
-//  AppHub.h
+//  HttpConnection.h
 //  AppHub
 //
 //  Created by Brad Balmer on 5/29/14.
@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AppHub : NSObject {
-    
-}
-- (NSString *)echoMe:(NSString *)shazam;
+@interface HttpConnection : NSObject
+
++ (NSString *)sendPost:(NSString *)uri;
 @end

@@ -16,6 +16,10 @@
 		280E4B7519377E0600F12621 /* libAppHub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 280E4B5D19377E0600F12621 /* libAppHub.a */; };
 		280E4B7B19377E0600F12621 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 280E4B7919377E0600F12621 /* InfoPlist.strings */; };
 		280E4B7D19377E0600F12621 /* AppHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E4B7C19377E0600F12621 /* AppHubTests.m */; };
+		28768A2C193780EE004BF2E6 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 28768A2B193780EE004BF2E6 /* Session.m */; };
+		28768A2F19378140004BF2E6 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 28768A2E19378140004BF2E6 /* Project.m */; };
+		28768A3219378442004BF2E6 /* Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = 28768A3119378442004BF2E6 /* Exception.m */; };
+		287FD8301937DB9000B8F32B /* HttpConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 287FD82F1937DB9000B8F32B /* HttpConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		280E4B7819377E0600F12621 /* AppHubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppHubTests-Info.plist"; sourceTree = "<group>"; };
 		280E4B7A19377E0600F12621 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		280E4B7C19377E0600F12621 /* AppHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppHubTests.m; sourceTree = "<group>"; };
+		28768A2A193780EE004BF2E6 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Session.h; path = model/Session.h; sourceTree = "<group>"; };
+		28768A2B193780EE004BF2E6 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Session.m; path = model/Session.m; sourceTree = "<group>"; };
+		28768A2D19378140004BF2E6 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Project.h; path = model/Project.h; sourceTree = "<group>"; };
+		28768A2E19378140004BF2E6 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Project.m; path = model/Project.m; sourceTree = "<group>"; };
+		28768A3019378442004BF2E6 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Exception.h; path = model/Exception.h; sourceTree = "<group>"; };
+		28768A3119378442004BF2E6 /* Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Exception.m; path = model/Exception.m; sourceTree = "<group>"; };
+		287FD82E1937DB9000B8F32B /* HttpConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpConnection.h; path = service/HttpConnection.h; sourceTree = "<group>"; };
+		287FD82F1937DB9000B8F32B /* HttpConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpConnection.m; path = service/HttpConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,8 @@
 		280E4B6219377E0600F12621 /* AppHub */ = {
 			isa = PBXGroup;
 			children = (
+				287FD82A1937DB1700B8F32B /* service */,
+				28768A29193780CF004BF2E6 /* model */,
 				280E4B6519377E0600F12621 /* AppHub.h */,
 				280E4B6719377E0600F12621 /* AppHub.m */,
 				280E4B6319377E0600F12621 /* Supporting Files */,
@@ -141,6 +155,28 @@
 				280E4B7919377E0600F12621 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28768A29193780CF004BF2E6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				28768A2A193780EE004BF2E6 /* Session.h */,
+				28768A2B193780EE004BF2E6 /* Session.m */,
+				28768A2D19378140004BF2E6 /* Project.h */,
+				28768A2E19378140004BF2E6 /* Project.m */,
+				28768A3019378442004BF2E6 /* Exception.h */,
+				28768A3119378442004BF2E6 /* Exception.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		287FD82A1937DB1700B8F32B /* service */ = {
+			isa = PBXGroup;
+			children = (
+				287FD82E1937DB9000B8F32B /* HttpConnection.h */,
+				287FD82F1937DB9000B8F32B /* HttpConnection.m */,
+			);
+			name = service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28768A2F19378140004BF2E6 /* Project.m in Sources */,
+				28768A3219378442004BF2E6 /* Exception.m in Sources */,
+				28768A2C193780EE004BF2E6 /* Session.m in Sources */,
+				287FD8301937DB9000B8F32B /* HttpConnection.m in Sources */,
 				280E4B6819377E0600F12621 /* AppHub.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +445,7 @@
 				280E4B8219377E0600F12621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		280E4B8319377E0600F12621 /* Build configuration list for PBXNativeTarget "AppHubTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +454,7 @@
 				280E4B8519377E0600F12621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

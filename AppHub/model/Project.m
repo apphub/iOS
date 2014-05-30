@@ -1,15 +1,12 @@
 //
-//  AppHub.h
+//  Project.m
 //  AppHub
 //
 //  Created by Brad Balmer on 5/29/14.
 //  Copyright (c) 2014 Laughlin Constable. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Project.h"
 
-@interface AppHub : NSObject {
-    
-}
-- (NSString *)echoMe:(NSString *)shazam;
+@implementation Project
 @end

@@ -9,5 +9,9 @@
 #import "AppHub.h"
 
 @implementation AppHub
-
+-(NSString *)echoMe:(NSString *)shazam {
+    NSLog(@"Received %@", shazam);
+    
+    return [shazam stringByAppendingString:@"_BLAH"];
+}
 @end

@@ -1,5 +1,5 @@
 //
-//  AppHub.h
+//  Project.h
 //  AppHub
 //
 //  Created by Brad Balmer on 5/29/14.
@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AppHub : NSObject {
-    
-}
-- (NSString *)echoMe:(NSString *)shazam;
+@interface Project : NSObject
+@property NSString *type;
+@property BOOL required;
+@property int maxLength;
 @end
